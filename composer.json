@@ -1,0 +1,22 @@
+{
+    "name":         "cve/roman-numerals",
+    "description":  "Specification-oriented BDD framework for PHP 5.3+",
+
+    "require": {},
+
+    "require-dev": {
+        "phpspec/phpspec": "^2.4"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "": "src/"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "spec\\": "spec/"
+        }
+    }
+}
